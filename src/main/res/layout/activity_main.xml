@@ -1,0 +1,115 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    tools:context=".MainActivity">
+
+    <!-- TextView to display result -->
+
+    <!-- EditText for user input -->
+
+    <!-- Button to trigger action -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="277dp"
+        android:layout_height="56dp"
+        android:fontFamily="sans-serif-medium"
+        android:shadowColor="#75512A"
+        android:text="Your Recommendation Will Show Here"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#67573F"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.211" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="289dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="200dp"
+        android:autofillHints=""
+        android:fontFamily="cursive"
+        android:hint="@string/type_here"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#FFF9F9"
+        android:textColorHint="#E5EBED"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <Button
+
+        android:id="@+id/btnSubmit"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:background="#647178"
+        android:text="@string/submit"
+        android:textColor="#E0F7FA"
+        android:textColorHighlight="#2196F3"
+        android:textColorHint="#383F65"
+        android:textColorLink="#673AB7"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.776"
+        app:rippleColor="#4B6BBD" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="286dp"
+        android:layout_height="75dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Choose Between Morning, Mid-morning, Afternoon, Mid-afternoon, Dinner and Desert"
+        android:textColor="#F8ECEC"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To The Food Recommendation App, Enjoy!"
+        android:textColor="#F7FAF6"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#9C5656"
+        android:text="reset"
+        android:textColor="#E8EAF6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="buttonPressedColor">#3F51B5</color> <!-- Color when button is pressed -->
+    <color name="buttonEnabledColor">#2196F3</color> <!-- Default color -->
+    <color name="buttonDisabledColor">#4F5B61</color> <!-- Disabled color -->
+</resources>
