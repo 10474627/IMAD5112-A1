@@ -1,0 +1,1 @@
+In this app, i designed it to help the user choose a meal based on the time of the day. it has a background that looks apealing with a user friendly UI. you choose between "Morning, Mid-morning, Afternoon, Mid-afternoon, Dinner and Dessert.". There is also a reset button that the user can use to clear their selection. the suggestion is shown above the editText.
